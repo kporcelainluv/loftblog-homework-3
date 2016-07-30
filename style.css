@@ -14,7 +14,7 @@
         .fa {
             padding-right: 5px;
         }
-        }
+        
                 .header {
                     width: 100%;
                     min-width: 90%;
@@ -66,100 +66,100 @@
                     padding-top: 1.1rem;
                 }
         .contacts {
-            display: inline-block;
-            float: right;
-            padding-top: 1.5rem;
-            color: #33c1e3;
-            font-family: 'Fira Sans', sans-serif;
-            font-size: 1.125rem;
-            font-weight: 700;
-            border-bottom: 1px dashed #33c1e3;
-            line-height: 1.125rem;
-            text-decoration: none;
-            -webkit-transition: all 0.5s;
-            transition: all 0.5s;
-        }
-        .contacts:hover {
-            display: inline-block;
-            float: right;
-            padding-top: 1.5rem;
-            font-family: 'Fira Sans', sans-serif;
-            font-size: 1.125rem;
-            font-weight: 700;
-            line-height: 1.125rem;
-            text-decoration: none;
-            -webkit-transition: all 0.5s;
-            transition: all 0.5s;
-            color: #e85f61;
-            border-bottom: 1px dashed #e85f61;
-        }
-        .contacts_dropdown {
-            list-style-type: none;
-        }
-        .header_content_right:hover .contacts_dropdown {
-            display: block;
-        }
-        .contacts_dropdown {
-            font-family: "FontAwesome";
-            margin: 0px;
-            display: none;
-            padding: 5px 0.625rem 0 1.25rem;
-            position: absolute;
-            top: 3.876rem;
-            right: 1%;
-            color: #414141;
-            border: 1px solid #dedede;
-            border-radius: 0.625rem;
-            background-color: white;
-            list-style-type: none;
-            text-align: left;
-            z-index: 1000;
-        }
-        .contacts_dropdown:hover {
-            position: absolute;
-            top: 3.876rem;
-            right: 1%;
-            border: 1px solid #dedede;
-            background-color: white;
-            border-radius: 0.625rem;
-            display: none;
-        }
-        .contacts_dropdown:before {
-            content: "";
-            position: absolute;
-            top: -11px;
-            left: 50%;
-            -webkit-transform: translate(-50%, 0);
-            -ms-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
-            width: 0;
-            height: 0;
-            display: block;
-            border-left: 11px solid transparent;
-            border-right: 11px solid transparent;
-            border-bottom: 11px solid #dedede;
-        }
-        .contacts_dropdown:after {
-            content: "";
-            position: absolute;
-            top: -10px;
-            left: 50%;
-            -webkit-transform: translate(-50%, 0);
-            -ms-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
-            width: 0;
-            height: 0;
-            display: block;
-            border-left: 10px solid transparent;
-            border-right: 10px solid transparent;
-            border-bottom: 10px solid white;
-        }
-        .contacts_dropdown_items {
-            font-size: 1.125rem;
-            font-family: 'Fira Sans', sans-serif;
-            line-height: 2.375rem;
-            text-align: left;
-        }
+    display: inline-block;
+    float: right;
+    padding-top: 1.5rem;
+    color: #33c1e3;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-bottom: 1px dashed #33c1e3;
+    line-height: 1.125rem;
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.contacts:hover {
+    display: inline-block;
+    float: right;
+    padding-top: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #e85f61;
+    border-bottom: 1px dashed #e85f61;
+}
+.contacts_dropdown {
+    list-style-type: none;
+}
+.header_content_right:hover .contacts_dropdown {
+    display: block;
+}
+.contacts_dropdown {
+    font-family: "FontAwesome";
+    margin: 0px;
+    display: none;
+    padding: 5px 0.625rem 0 1.25rem;
+    position: absolute;
+    top: 3.876rem;
+    right: -2.1875rem;
+    color: #414141;
+    border: 1px solid #dedede;
+    border-radius: 0.625rem;
+    background-color: white;
+    list-style-type: none;
+    text-align: left;
+    z-index: 1000;
+}
+.contacts_dropdown:hover {
+    position: absolute;
+    top: 3.876rem;
+    right: -2.1875rem;
+    border: 1px solid #dedede;
+    background-color: white;
+    border-radius: 0.625rem;
+    display: none;
+}
+.contacts_dropdown:before {
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid #dedede;
+}
+.contacts_dropdown:after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+}
+.contacts_dropdown_items {
+    font-size: 1.125rem;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 2.375rem;
+    text-align: left;
+}
         .fa-envelope-o, .fa-phone, .fa-skype {
             color: #33c1e3;
         }
