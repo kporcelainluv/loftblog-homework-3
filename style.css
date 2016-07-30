@@ -38,7 +38,7 @@
             float: left;
             display: block;
             border: 0px;
-            margin-left: -1.25rem;
+           padding: 0 3.625rem;
         }
         .header_pic {
             border: 1px solid rgb(190, 190, 190);
