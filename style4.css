@@ -1,27 +1,31 @@
-html body {
+    html body {
     width: 100%;
     height: 100%;
     margin: 0px auto;
     padding: 0px;
     background-color: #f6f6f6;
+    font-size: 16px;
 }
 * {
     box-sizing: border-box;
 }
+.fa {
+    padding-right: 5px;
+}
 .header {
     width: 100%;
-    min-width: 965px;
-    padding-top: 10px;
-    margin-bottom: 26px;
+    min-width: 90%;
+    padding-top: 0.625rem;
+    margin-bottom: 1.625rem;
     display: inline-block;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
 }
 .header_container {
     position: relative;
-    width: 960px;
-    padding: 0 10px;
+    max-width: 1000px;
+    padding: 0 0.625rem;
     margin: 0 auto;
 }
 .header__container:before {
@@ -32,12 +36,12 @@ html body {
     float: left;
     display: block;
     border: 0px;
-    margin-left: -20px;
+    margin-left: -1.25rem;
 }
 .header_pic {
     border: 1px solid rgb(190, 190, 190);
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
@@ -49,31 +53,26 @@ html body {
 }
 .header_name {
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Fira Sans', sans-serif;
     'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
     color: rgb(65, 65, 65);
-    margin-left: 20px;
+    margin-left: 1.25rem;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 1.75rem;
     vertical-align: middle;
+    padding-top: 1.1rem;
 }
 .contacts {
     display: inline-block;
     float: right;
-    padding-top: 24px;
+    padding-top: 1.5rem;
     color: #33c1e3;
     font-family: 'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     border-bottom: 1px dashed #33c1e3;
-    line-height: 18px;
+    line-height: 1.125rem;
     text-decoration: none;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
@@ -81,14 +80,11 @@ html body {
 .contacts:hover {
     display: inline-block;
     float: right;
-    padding-top: 24px;
+    padding-top: 1.5rem;
     font-family: 'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
-    line-height: 18px;
+    line-height: 1.125rem;
     text-decoration: none;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
@@ -102,19 +98,16 @@ html body {
     display: block;
 }
 .contacts_dropdown {
-    font-family: 'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    "FontAwesome";
+    font-family: "FontAwesome";
     margin: 0px;
     display: none;
-    padding: 5px 10px 0 20px;
+    padding: 5px 0.625rem 0 1.25rem;
     position: absolute;
-    top: 62px;
-    right: -35px;
+    top: 3.876rem;
+    right: -2.1875rem;
     color: #414141;
     border: 1px solid #dedede;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-color: white;
     list-style-type: none;
     text-align: left;
@@ -122,11 +115,11 @@ html body {
 }
 .contacts_dropdown:hover {
     position: absolute;
-    top: 62px;
-    right: -35px;
+    top: 3.876rem;
+    right: -2.1875rem;
     border: 1px solid #dedede;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     display: none;
 }
 .contacts_dropdown:before {
@@ -160,12 +153,9 @@ html body {
     border-bottom: 10px solid white;
 }
 .contacts_dropdown_items {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    line-height: 38px;
+    line-height: 2.375rem;
     text-align: left;
 }
 .fa-envelope-o, .fa-phone, .fa-skype {
@@ -174,26 +164,26 @@ html body {
 .header__container:after, .content:after, .content_info:after {
     clear: both;
 }
+.header .fa-phone {
+    display: none;
+}
 
 /*main block*/
 
 .content {
-    padding: 0 10px;
+    padding: 0 0.625rem;
     margin: 0 auto;
-    width: 100%;
-    min-width: 960px;
+    display: inline-block;
+    min-width: 90%;
 }
 .content_container {
-    width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
 }
-
-/*slidebar*/
-
 .slidebar {
     display: block;
-    width: 225px;
     float: left;
+    padding-left: 1.25rem;
 }
 .nav_list {
     margin: 0px;
@@ -201,14 +191,10 @@ html body {
 }
 .nav_link {
     font-family: 'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    "FontAwesome";
-    line-height: 24px;
-    font-size: 18px;
+    line-height: 1.5rem;
+    font-size: 1.125rem;
     display: block;
-    padding: 10px 35px 10px 0;
+    padding: 0.625rem 2.1875rem 0.625rem 0;
     text-align: right;
     border-right: 5px solid transparent;
     text-decoration: none;
@@ -217,17 +203,16 @@ html body {
     -webkit-transition: color 0.5s;
 }
 .nav_link:hover {
-    border-color: #33c1e3;
     color: #33c1e3;
+}
+.nav_link:active {
+    border-color: #33c1e3;
 }
 .nav_item {
     position: relative;
     text-align: right;
     list-style-type: none;
     text-decoration: none;
-}
-.fa {
-    padding-right: 5px;
 }
 .contacts_dropdown_items_mail {
     text-decoration: none;
@@ -238,7 +223,7 @@ html body {
 
 .content_info {
     float: right;
-    width: 700px;
+    width: 70%;
     margin-bottom: 10px;
 }
 .content_header {
@@ -249,12 +234,12 @@ html body {
     font-size: 35px;
     font-weight: 600;
     line-height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     text-align: left;
 }
 .portfolio {
     display: block;
-    margin-right: -15px;
+    margin-right: -0.9375rem;
 }
 .portfolio_list {
     list-style-type: none;
@@ -263,21 +248,23 @@ html body {
 .about_item {
     float: left;
     width: 33.3%;
+    vertical-align: top;
 }
 .portfolio_item_block {
     display: inline-block;
     vertical-align: top;
-    margin-right: 15px;
+    margin-right: 0.9375rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     overflow: hidden;
     background-color: #f6f6f6;
 }
 .portfolio_link_block {
     text-decoration: none;
     display: block;
-    padding: 15px 0 13px 20px;
+    padding: 0.9375rem 0 0.8125rem 1.25rem;
+    vertical-align: middle;
 }
 .portfolio_image {
     display: block;
@@ -285,25 +272,28 @@ html body {
 }
 .portfolio_title {
     color: #33c1e3;
-    font-size: 21px;
+    font-size: 1.3125rem;
     line-height: 27px;
     font-weight: 300;
     text-align: left;
+    vertical-align: middle;
 }
 .portfolio_describtion {
-    margin-bottom: 10px;
-    font-size: 14px;
+    margin-bottom: 0.625rem;
+    font-size: 0.875rem;
     font-family: 'Fira Sans', sans-serif;
     color: rgb(65, 65, 65);
-    line-height: 1.5;
+    line-height: 1.5rem;
     text-align: left;
+    vertical-align: middle;
 }
 .portfolio_expl {
-    font-size: 14px;
+    font-size: 0.775rem;
     font-family: 'Fira Sans', sans-serif;
     color: rgb(174, 174, 174);
     text-align: left;
     text-decoration: none;
+    vertical-align: middle;
 }
 .portfolio_item_block:hover {
     box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
@@ -312,30 +302,28 @@ html body {
 .portfolio_item_block:hover .portfolio_title {
     color: #e85f61;
 }
+
+/*footer*/
+
 .footer {
     background-color: rgb(65, 65, 65);
     width: 100%;
-    min-width: 965px;
-    height: 50px;
-    display: block;
+    min-width: 90%;
+    height: 3.125rem;
+    margin: 0px;
 }
 .footer_container {
-    width: 960px;
+    max-width: 60rem;
     margin: 0 auto;
-    padding: 10px 0;
-    display: block;
+    padding: 0.5625rem 0.625rem;
 }
 .copyright {
     color: #9c9c9c;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 300;
     font-family: 'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
-    'Fira Sans', sans-serif;
     vertical-align: middle;
-    line-height: 32px;
+    line-height: 2rem;
     float: left;
 }
 .socials {
@@ -393,3 +381,159 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
     font-weight: normal;
 }
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+    .content_container {
+        width: 970px;
+    }
+    .header_container {
+        padding: 0 3.625rem;
+    }
+}
+
+/*laptop*/
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+    .content_container {
+        width: 700px;
+    }
+    .content_info {
+        width: 31.25rem;
+    }
+    .about_item{
+      width: 50%;
+    }
+    .header_container {
+        padding: 0 3.625rem;
+    }
+}
+
+/*tablet*/
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    .content_container {
+        width: 750px;
+    }
+    .content_info {
+        width: auto;
+    }
+    .content_container {
+        width: 480px;
+    }
+    .slidebar {
+        margin-bottom: 1.125rem;
+        margin-left: 0.625rem;
+    }
+    .portfolio_list{
+    }
+    .about_item{
+      width: 33.3%;
+
+    }
+    .nav_list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*phone*/
+    @media screen and (max-width: 480px) {
+        html {
+            font-size: 12px;
+        }
+        .header__container {
+            width: 100%;
+        }
+        .content_info {
+            width: auto;
+            display: block;
+            box-sizing: border-box;
+        }
+        .content_container {
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+        .content_right_contacts {
+            display: none;
+        }
+        .contacts {
+            border-bottom: none;
+        }
+        .contacts:hover {
+            border-bottom: none;
+        }
+        .contacts .fa-phone {
+            display: inline-block;
+            font-size: 2.5rem;
+            margin-top: -0.625rem;
+
+        }
+        .contacts_dropdown {
+            width: 140px;
+            position: absolute;
+            right: 1.1875rem;
+        }
+        .contacts_dropdown_items_mail {
+            width: 6.25rem;
+
+        }
+        .slidebar {
+            display: inline-block;
+            text-align: center;
+        }
+        .content_header{
+          text-align: center;
+        }
+        .about_item{
+          width: 100%;
+        }
+        .portfolio_describtion{
+          font-size: 12
+        }
+
+        .footer {
+            height: auto;
+            text-align: center;
+            width: 100%;
+            position: relative;
+        }
+        .footer_container {
+            width: 100%;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        .copyright {
+            display: inline-block;
+            font-size: 0.875rem;
+            padding-bottom: 0.625rem;
+            ;
+            padding: 0 25%;
+        }
+        .socials {
+            display: inline-block;
+            float: none;
+            width: 160px;
+        }
+        .nav_link {
+            padding: 0.625rem 2rem 0.625rem 0;
+        }
+        .slidebar .fa {
+            display: none;
+        }
+        .contacts_dropdown:before, .contacts_dropdown:after {
+            left: 65%;
+        }
+        .contacts_dropdown, .contacts_dropdown:hover {
+            left: 65%;
+        }
+    }
+    ol, ul {
+        list-style: none outside none;
+    }
